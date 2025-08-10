@@ -1,129 +1,93 @@
-[04:49:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[04:49:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[04:49:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:49:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[04:49:32] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 4051ms.
-[04:49:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[04:49:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[04:52:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[04:52:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[04:52:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:52:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[04:52:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Geyser-Spigot (2.8.2-SNAPSHOT), SkinsRestorer (15.7.8), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[04:49:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:49:43] [ServerMain/INFO]: Loaded 1407 recipes
-[04:49:43] [ServerMain/INFO]: Loaded 1520 advancements
-[04:49:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[04:49:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 879.7ms
-[04:49:44] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[04:49:44] [Server thread/INFO]: Loading properties
-[04:49:44] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[04:49:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:49:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:49:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:49:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:49:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[04:49:46] [Server thread/INFO]: Default game type: SURVIVAL
-[04:49:46] [Server thread/INFO]: Generating keypair
-[04:49:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:49:47] [Server thread/INFO]: Using epoll channel type
-[04:49:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:49:47] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[04:49:47] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[04:49:48] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:49:48] [Server thread/INFO]: [floodgate] Took 1,430ms to boot Floodgate
-[04:49:48] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[04:49:50] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:49:50] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:49:50] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.8
-[04:49:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:49:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.8
-[04:49:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[04:49:51] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:49:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:49:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:49:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:49:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:49:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:49:52] [Server thread/INFO]: Preparing level "world"
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.8
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8c78340
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:49:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:49:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:49:54] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:54] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:55] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:55] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:55] [Server thread/INFO]: Time elapsed: 1785 ms
-[04:49:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:49:55] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:55] [Server thread/INFO]: Time elapsed: 483 ms
-[04:49:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:49:55] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:56] [Server thread/INFO]: Time elapsed: 322 ms
-[04:49:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[04:49:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[04:50:00] [Server thread/INFO]: [spark] Starting background profiler...
-[04:50:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:50:00] [Server thread/INFO]: [Geyser-Spigot] 
-[04:50:00] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b898 (git-master-9b04d7e)
-[04:50:00] [Server thread/INFO]: [Geyser-Spigot] 
-[04:50:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:50:07] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[04:50:07] [Server thread/INFO]: [Geyser-Spigot] Done (6.77s)! Run /geyser help for help!
-[04:50:07] [Thread-14/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.100. Download it here: https://geysermc.org/download
-[04:50:07] [Server thread/INFO]: Done preparing level "world" (15.193s)
-[04:50:07] [Server thread/INFO]: Running delayed init tasks
-[04:50:07] [Server thread/INFO]: Done (40.950s)! For help, type "help"
-[04:50:14] [User Authenticator #0/INFO]: UUID of player elishamc is e0368f80-2709-3fd1-92d2-6ec6291eb832
-[04:50:14] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer]
-[04:50:15] [Server thread/INFO]: elishamc joined the game
-[04:50:15] [Server thread/INFO]: elishamc[/127.41.133.70:47017] logged in with entity id 116 at ([world]-397.1412006347765, 69.0, -41.32582830633297)
-[04:50:22] [Server thread/INFO]: elishamc issued server command: /skin set https://minesk.in/6d3b2a5d7bfd473897288d0df77f3dea
-[04:50:26] [Server thread/INFO]: elishamc lost connection: Disconnected
-[04:50:26] [Server thread/INFO]: elishamc left the game
-[04:50:46] [Server thread/INFO]: Stopping the server
-[04:50:46] [Server thread/INFO]: Stopping server
-[04:50:46] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.8
-[04:50:46] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
-[04:50:46] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[04:50:47] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[04:50:47] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[04:50:47] [Server thread/INFO]: Saving players
-[04:50:47] [Server thread/INFO]: Saving worlds
-[04:50:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:50:47] [WebSocketConnectReadThread-84/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[04:50:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:50:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:50:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 676 block chunks, 650 entity chunks, 0 poi chunks in world 'world' in 1.96s
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[04:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.13s
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[04:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[04:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[04:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:50:49] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[04:50:49] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[04:50:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[04:50:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[04:53:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:53:05] [ServerMain/INFO]: Loaded 1407 recipes
+[04:53:05] [ServerMain/INFO]: Loaded 1520 advancements
+[04:53:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:53:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 744.9ms
+[04:53:05] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[04:53:05] [Server thread/INFO]: Loading properties
+[04:53:06] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[04:53:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:53:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:53:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:53:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:53:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:53:08] [Server thread/INFO]: Default game type: SURVIVAL
+[04:53:08] [Server thread/INFO]: Generating keypair
+[04:53:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:53:08] [Server thread/INFO]: Using epoll channel type
+[04:53:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:53:08] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:53:09] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[04:53:10] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:53:10] [Server thread/INFO]: [floodgate] Took 1,399ms to boot Floodgate
+[04:53:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[04:53:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:53:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:53:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.8
+[04:53:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:53:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.8
+[04:53:13] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[04:53:13] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[04:53:13] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:53:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:53:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:53:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:53:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:53:14] [Server thread/INFO]: Preparing level "world"
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.8
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8c78340
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:53:14] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:53:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:53:15] [Server thread/INFO]: Preparing spawn area: 0%
+[04:53:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:53:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:53:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:53:16] [Server thread/INFO]: Time elapsed: 1864 ms
+[04:53:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:53:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:53:17] [Server thread/INFO]: Time elapsed: 338 ms
+[04:53:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:53:17] [Server thread/INFO]: Preparing spawn area: 0%
+[04:53:17] [Server thread/INFO]: Time elapsed: 206 ms
+[04:53:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[04:53:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[04:53:20] [Server thread/INFO]: [spark] Starting background profiler...
+[04:53:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:53:21] [Server thread/INFO]: [Geyser-Spigot] 
+[04:53:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b898 (git-master-9b04d7e)
+[04:53:21] [Server thread/INFO]: [Geyser-Spigot] 
+[04:53:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:53:28] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[04:53:28] [Server thread/INFO]: [Geyser-Spigot] Done (6.829s)! Run /geyser help for help!
+[04:53:28] [Thread-13/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.100. Download it here: https://geysermc.org/download
+[04:53:28] [Server thread/INFO]: Done preparing level "world" (14.556s)
+[04:53:28] [Server thread/INFO]: Running delayed init tasks
+[04:53:28] [Server thread/INFO]: Done (35.879s)! For help, type "help"
+[04:53:41] [User Authenticator #0/INFO]: UUID of player elishamc is e0368f80-2709-3fd1-92d2-6ec6291eb832
+[04:53:41] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer]
+[04:53:42] [Server thread/INFO]: elishamc joined the game
+[04:53:42] [Server thread/INFO]: elishamc[/127.41.133.70:51089] logged in with entity id 124 at ([world]-400.66752794670236, 69.0, -44.78270316002182)
+[04:54:27] [Server thread/INFO]: elishamc has made the advancement [Stone Age]
+[04:54:38] [Server thread/INFO]: elishamc lost connection: Disconnected
+[04:54:38] [Server thread/INFO]: elishamc left the game
+[04:55:11] [User Authenticator #1/INFO]: UUID of player elishamc is e0368f80-2709-3fd1-92d2-6ec6291eb832
+[04:55:11] [Server thread/INFO]: elishamc joined the game
+[04:55:11] [Server thread/INFO]: elishamc[/127.41.133.70:54931] logged in with entity id 379 at ([world]-426.69999998807907, 70.0, -66.60265417960423)
+[04:56:11] [Server thread/INFO]: elishamc has made the advancement [Getting an Upgrade]
+[04:58:06] [Server thread/INFO]: elishamc has made the advancement [Monster Hunter]
